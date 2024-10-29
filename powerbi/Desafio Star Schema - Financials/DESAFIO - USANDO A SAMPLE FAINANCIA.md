@@ -1,7 +1,6 @@
-DESAFIO - USANDO A SAMPLE FAINANCIALS - ALTERAR MODELO PARA STAR SCHEMA
+# DESAFIO - USANDO A SAMPLE FINANCIALS - ALTERAR MODELO PARA STAR SCHEMA
 
-
-RSOLUÇÃO
+## RESOLUÇÃO
 
 > Transformação de dados da tabela Financials: nomes dos campos, tipo dos campos
 
@@ -14,7 +13,7 @@ RSOLUÇÃO
 		'Mediana do Valor de Vendas': calculou a mediana de 'Valor de Vendas' agrupada por produto
 		'Média do Valor de Manufatura': calculou a media de 'Preço de Produção' agrupada por produto
 
-		Em seguida foi gerado o Id_produto para esta tabela. Adicionando uma coluna condicional de acordo com a descrição do produto.
+Em seguida foi gerado o Id_produto para esta tabela. Adicionando uma coluna condicional de acordo com a descrição do produto.
 
 				
 	> D_Produtos_Detalhes: Gerado a partir da Mescla de tabelas Financials com d_Produtos, removida colunas desnecessárias
